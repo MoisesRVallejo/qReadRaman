@@ -12,6 +12,7 @@ The user graphical interface of qReadRaman will be displayed from port 3100. Onc
 http://localhost:3100
 
 USAGE
+
 The informatics tool is divided into two visualization stages. 
 1.	The first stage was designed to preprocess Raman spectral datasets, involving noise reduction by applying mathematical methods such as outlier removal, baseline correction, fluorescence removal, smoothing, and spectral normalization. Only after the datasets have been normalized can the second stage, focused on disease prediagnosis, be correctly activated. 
 2.	The second stage is designed for the early detection of two tomato diseases: Cmm and CLso. Preprocessed and normalized spectral datasets are used to train classifiers. The process begins by selecting either a binary model (Cmm-Healthy or CLso-Healthy) or the available three-class model (CLso-Cmm-Healthy). It then proceeds with dimensionality reduction of the datasets through Principal Component Analysis. Finally, the classification is performed using a consensus approach that incorporates five different classifiers: Multilayer Perceptron, Partial Least Squares-Discriminant Analysis, Linear Discriminant Analysis, Long Short-Term Memory, and K-nearest neighbors.
