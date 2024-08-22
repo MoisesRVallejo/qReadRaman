@@ -5,11 +5,10 @@ The qREAD-Raman program is a software tool designed for analyzing and interpreti
 INSTALLATION:
 The software was developed using Node.js version 21.4.0, Express version 4.18.2, and the Synaptic package version 1.1.4.
 This code enables qReadRaman service on a Linux platform with node.js capabilities.
-To run it, download the latest release from the link provided on this page and unzip it to a local folder. In a terminal, with the current directory set to the unzipped local folder, execute the following command:
-node server.js
-Optionally, if you have a KDE environment installed, you can execute the install.sh file.
+To run it, download the latest release from the link provided on this page and unzip it to a local folder. In a terminal, with the current directory set to the unzipped local folder, execute "node server.js" comand.
+Optionally, if you have a KDE environment installed, you can execute the "install.sh" file.
 The user graphical interface of qReadRaman will be displayed from port 3100. Once the server is running locally, you can access the GUI from a web browser at the URL:
-http://localhost:3100
+"http://localhost:3100"
 
 USAGE
 
